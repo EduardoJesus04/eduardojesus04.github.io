@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*all*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*head*/
+.header {
+    margin: auto;
+    width: 75%;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.780);
+    background-position: top center;
+}
+
+.header h1,h2 {
+    font-size: 60px;
+   }
+   
+.header h2 {
+    font-weight: normal;
+   }
+
+.intro {
+    margin: 50px 0px;
+    background-image: url(vegito.gif);
+    background-repeat: no-repeat;
+}
+
+
+/*main*/
+body{
+    width: 75%;
+    margin: auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background:rgb(15, 15, 15);
+    background-image: url(wavekanagawa.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+
+body a{
+    color: rgb(180, 50, 67);
+    text-decoration: none;
+    transition-delay: 1;
+}
+
+body a:hover {
+    color: rgb(0, 132, 255);
+}
+
+.page-wrapper {
+    margin-bottom: 50px;
+}
+
+.page-wrapper > .main {
+    margin: auto;
+    padding: 15px 15px 0px 15px;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.780);
+
+} 
+
+.page-wrapper h3 { 
+    margin: 20px;
+    font-size: 48px;
+}
+
+.summary,.preamble {
+    position: initial;
+    top: 50%;
+    left: 50%;
+    margin: 50px auto;
+    padding: 10px;
+    text-align: center;
+    max-width: 70%;
+
+    font-size: 22px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.780);
+    border-radius: 15px;
+    transition: 10ms;
+    cursor: context-menu;
+}
+
+.hobbies{
+    position: initial;
+    top: 50%;
+    left: 50%;
+    margin: 50px auto;
+    padding: 10px;
+    text-align: center;
+    max-width: 70%;
+
+    font-size: 22px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.780);
+    border-radius: 15px;
+    transition: 10ms;
+    cursor: context-menu;
+}
+
+.maintext{
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+.footer{
+    font-size: 40px;
+}
+
+acronym {
+    text-decoration: none;
+}
+
+
+/*side bar*/
+.sidebar{
+    align-self: center;
+    position: fixed;
+    top: 0px;
+    left: -18.9vw;
+    height: 100vh;
+    width: 20vw;
+
+    text-align: center;
+    transition: 0.3s ease-in-out;
+
+    background-image: url(sidebar.png);
+    min-height: 8px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.sidebarText, .sidebarTitulo{
+    position: initial;
+    top: 50%;
+    left: 50%;
+    margin: 50px auto;
+    padding: 10px;
+    text-align: center;
+    max-width: 70%;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.780);
+    border-radius: 15px;
+    transition: 10ms;
+    cursor: context-menu;
+}
+
+.sidebar:hover {
+    left: 0;
+}
