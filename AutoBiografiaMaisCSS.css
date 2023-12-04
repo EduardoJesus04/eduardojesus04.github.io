@@ -30,7 +30,7 @@
 
 .intro {
     margin: 50px 0px;
-    background-image: url(siteAuto/vegito.gif);
+    background-image: url(vegito.gif);
     background-repeat: no-repeat;
 }
 
@@ -42,7 +42,7 @@ body{
     color: white;
     font-family: 'Roboto', sans-serif;
     background:rgb(15, 15, 15);
-    background-image: url(siteAuto/wavekanagawa.jpg);
+    background-image: url(wavekanagawa.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: right center;
@@ -139,7 +139,7 @@ acronym {
     text-align: center;
     transition: 0.3s ease-in-out;
 
-    background-image: url(siteAuto/sidebar.png);
+    background-image: url(sidebar.png);
     min-height: 8px;
     background-repeat:no-repeat;
     background-size: cover;
